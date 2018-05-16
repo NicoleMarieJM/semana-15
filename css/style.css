@@ -1,0 +1,305 @@
+body{
+	max-width: 100%;
+	/*width: 1150px;*/
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+header {
+	background-image:url(../img/canela.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+
+nav {
+	background-color:#000; 
+	font-size:20px;
+	color:#fff;
+	padding:10px;
+	display: flex;
+	justify-content: center;
+	/*position: fixed;
+	width: 100%;*/
+	
+}
+
+p {
+	text-align: justify;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+nav li {
+	display: inline-block;
+	margin: 10px;
+}
+
+a.active {
+	color: cyan;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: cyan;
+}
+
+nav li:active{
+	color: cyan;
+}
+
+.row {
+	display: flex;
+}
+
+.column1 {
+	margin-top: 56px;
+	margin-left: 250px;
+	margin-right: 60px;
+}
+.column2 {
+	margin-top: 56px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  margin-right: 200px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+button{
+ border-radius: 2px;
+ padding: 10px 20px;
+ background-color: yellow;
+ margin-left: 300px;
+ position: absolute;
+ left: 500px;
+ margin-top: -85px;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: bolder;
+ font-size: 25px;
+}
+
+button:hover {
+ cursor: pointer;
+ background-color: goldenrod;
+}
+
+.row2 {
+	display: flex;
+}
+
+.column-1, .column-2 {
+	margin-top: 59px;
+	flex: 5;
+	background-color:#000; 
+	font-size:15px;
+	color:#fff;
+	padding:10px;
+}
+
+.column-2 {
+	
+	position: absolute;
+	left:1010px;
+	margin-top: 75px;
+}
+
+p.column1 {
+	-moz-box-shadow: inset 0 0 50px #000;
+	-webkit-box-shadow: inset 0 0 50px #000;
+	box-shadow: inset 0 0 50px #000;
+}
+
+/*The story*/
+
+.thestory {
+  max-width: 100%;
+	/*width: 1150px;*/
+	background-image: url(../img/canela2.jpg);
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.stcolumn1 {
+
+	margin-top: 120px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 700px;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.strow2 {
+	display: flex;
+}
+
+.stcolumn-1, .stcolumn-2 {
+	margin-top: 200px;
+	flex: 5;
+	background-color:#000; 
+	font-size:15px;
+	color:#fff;
+	padding:10px;
+}
+
+.tspointer {
+	position: absolute;
+	left: 1000px;
+	margin-top: -40px;
+
+}
+
+.stcolumn-2 {
+	
+	position: absolute;
+	left:1030px;
+	margin-top: 220px;
+	margin-left: -25px;
+}
+
+/*About Us*/
+
+.aboutus {
+  max-width: 100%;
+	/*width: 1150px;*/
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.aurow {
+	display: flex;
+}
+
+.aucolumn1 {
+	border-radius: 10px;
+  color: white;
+  text-align: center;
+  
+  padding: 20px;
+  margin-right: 100px;
+  
+  font-size: 20px;
+  line-height: 20px;
+	margin-top: 56px;
+	margin-left: 100px;
+	margin-right: -200px;
+}
+
+iframe {
+	margin-top: 35px;
+}
+
+.aucolumn2 {
+	margin-top: 56px;
+	margin-left: 250px;
+	margin-right: 100px;
+  
+}
+
+.aupointer {
+	position: absolute;
+	left: 820px;
+	margin-top: 20px;
+}
+
+.aurow2 {
+	display: flex;
+}
+
+.aucolumn-1, .aucolumn-2 {
+	margin-top: 70px;
+	flex: 5;
+	background-color:#000; 
+	font-size:15px;
+	color:#fff;
+	padding:10px;
+}
+
+.aucolumn-2 {
+	
+	position: absolute;
+	left:1030px;
+	margin-top: 88px;
+	margin-left: -25px;
+}
+
+/*Follow Us*/
+
+.followus {
+	max-width: 100%;
+	/*width: 1150px;*/
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+form {
+	margin-top: 50px;
+    border: 3px solid #15384a;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #15384a;
+}
+
+.container {
+    padding: 20px;
+    background-color: #15384a;
+}
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #6b394a;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+input[type=submit] {
+    background-color: #6b394a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.fucolumn-1, .fucolumn-2 {
+	margin-top: 59px;
+	flex: 5;
+	background-color:#000; 
+	font-size:15px;
+	color:#fff;
+	padding:10px;
+}
+
+.fucolumn-2 {
+	
+	position: absolute;
+	left:1000px;
+	margin-top: -50px;
+}
